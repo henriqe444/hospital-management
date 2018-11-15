@@ -23,8 +23,10 @@ if (empty($_SESSION['pharmacy']) OR empty($_SESSION['type'])) {
 				<tr>
 					<th>ID</th>
 					<th>Firstname</th>
+					<th>Lastname</th>
 					<th>Surname</th>
 					<th>Gender</th>
+					<th>Age</th>
 					<th>View Medicine</th>
 				</tr>
 				<?php 
