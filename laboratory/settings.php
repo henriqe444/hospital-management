@@ -42,7 +42,7 @@ if (empty($_SESSION['laboratory']) OR empty($_SESSION['type'])) {
 					<?php
 				}
 				 ?>
-				<input type="submit" value="Update" class="btnlink" name="btn">
+				<input type="submit" value="Update Data" class="btnlink" name="btn">
 			</form>
 			<?php 
 			extract($_POST);
